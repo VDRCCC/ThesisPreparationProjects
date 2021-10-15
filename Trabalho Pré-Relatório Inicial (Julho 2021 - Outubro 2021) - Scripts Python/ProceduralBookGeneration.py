@@ -188,9 +188,9 @@ def assign_materials(object):
     object.data.materials.append(cover_material)
     
     paper_material = create_material("paper_material",(
-        random.uniform(0.225, 0.47),
+        random.uniform(0.863, 1),
+        random.uniform(0.256, 1),
         random.uniform(0, 1),
-        1,
         1
     ))
     paper_material.specular_intensity = 0.1
